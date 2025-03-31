@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    background: linear-gradient(135deg, #9aceff, #c4ccfa);
 }
 
 .container {
@@ -71,30 +71,5 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: 0.3s;
-}
-
-li:hover {
-    background: #e3e3e3;
-}
-
-.concluida {
-    text-decoration: line-through;
-    color: gray;
-}
-
-/* Botão de excluir */
-.botaoExcluir {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-    color: #ff2e4d;
-    transition: 0.3s;
-}
-
-.botaoExcluir:hover {
-    color: #c40028;
+  
 }
