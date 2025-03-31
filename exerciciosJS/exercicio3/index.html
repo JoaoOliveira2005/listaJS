@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hora do dia</title>
+    <style>
+        body{
+            background-color: rgb(13, 119, 219);
+            font: normal 15pt Arial;
+        }
+
+        header{
+            color: white;
+            text-align: center;
+        }
+
+        section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 100px;
+            width: 500px;
+            margin: auto;
+            text-align:left;
+            box-shadow: 5px 5px 10px rgb(59, 57, 57);
+        }
+
+        footer{
+            color: white;
+            text-align: center;
+            font-style: italic;
+
+        }
+
+        button{
+            padding: 25px;
+            width: auto;
+            background-color: rgb(133, 31, 31);
+            color: white;
+        }
+
+
+    
+    
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h1>vamso contar</h1>
+
+
+
+    </header>
+
+    <section>
+        <div id="dados">
+            <p>inicio:
+                <input type="number" id="inicio"></input>
+            </p>
+
+            <p>fim:
+                <input type="number" id="fim"> </input>
+            </p>
+
+            <p>passo:
+                <input type="number" id="passo"></input>
+            </p>
+
+
+        </div>
+
+
+
+        <div id="res">
+            <p>
+                <button onclick="calculando()" >preparando contagem</button>
+                <p id="resultado">resulatdo: </p>
+            </p>
+
+
+        </div>
+
+
+    </section>
+
+
+    <footer>
+        <p>copy</p>
+
+
+    </footer>
+   
+
+
+
+
+
+
+
+    <script src="calculando.js">
+    </script>
+    
+</body>
+</html>
